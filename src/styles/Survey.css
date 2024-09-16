@@ -1,0 +1,227 @@
+/* src/styles/Survey.css */
+:root {
+  --color-leonardo: rgb(234, 51, 35);
+  --color-bianco: #fff;
+  --color-border: #ddd;
+}
+
+
+
+.survey-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: var(--color-bianco);
+}
+  
+  .survey-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  
+  
+  .survey-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .survey-form input[type="text"],
+  .survey-form input[type="email"],
+  .survey-form select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    font-size: 16px;
+    min-height: 60px; /* Increases the height of the input and select elements */
+    white-space: pre-wrap; /* Allows the placeholder to wrap */
+    word-wrap: break-word; /* Allows long words to be broken and wrap to the next line */
+    width: -webkit-fill-available;
+  }
+
+  .survey-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    resize: none; /* Evita che l'utente possa ridimensionare il textarea */
+    height: auto;
+    min-height: 85px;
+    display: block;
+    overflow-y: auto; /* Mostra la barra di scorrimento verticale solo se necessario */
+    white-space: pre-wrap; /* Mantiene gli spazi e le linee */
+    font-family: inherit; /* Assicura che il font del placeholder sia lo stesso */
+}
+
+  
+  .survey-form fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+  }
+  
+  .survey-form legend {
+    font-weight: bold;
+  }
+  
+  .survey-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .survey-form button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .survey-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .survey-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .survey-form input,
+  .survey-form select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .survey-form button {
+    padding: 10px;
+    background-color: var(--color-leonardo);
+    color: var(--color-bianco);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .survey-form button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Style for the placeholder text */
+.survey-form ::placeholder {
+  white-space: pre-wrap; /* Allows the placeholder to wrap */
+  word-wrap: break-word; /* Allows long words to be broken and wrap to the next line */
+  text-align: start;
+}
+
+.survey-form input::placeholder {
+  text-align: left;
+}
+  
+  /* src/styles/Survey.css */
+
+/* Stile comune per i contenitori */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Stile comune per i titoli */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--color-leonardo);
+  }
+  
+  /* Stile comune per i pulsanti */
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: var(--color-leonardo);
+    color: var(--color-bianco);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: var(--color-leonardo);
+  }
+  
+  /* Stile per i form di survey */
+  .survey-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .survey-form input,
+  .survey-form select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Stile per la pagina di selezione dei survey */
+  .survey-selection ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .survey-selection li {
+    margin: 10px 0;
+  }
+  
+  .survey-selection a {
+    text-decoration: none;
+    color: var(--color-bianco);
+    background-color: var(--color-leonardo);
+    padding: 10px;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+  }
+  
+  .survey-selection a:hover {
+    background-color: var(--color-leonardo);
+  }
+
+  .sottotitolo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: var(--color-leonardo);
+}
+  
+  /* Stile per il pannello admin */
+  .admin-panel {
+    text-align: center;
+  }
+  
+  .admin-panel p {
+    margin-top: 20px;
+    color: var(--color-leonardo);
+  }
+  
+  .powered-by {
+    color: var(--color-leonardo); /* Rosso */
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 20px;
+}
