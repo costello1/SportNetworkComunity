@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SportNetworkComunity/static/css/main.a5ebb963.css",
-    "main.js": "/SportNetworkComunity/static/js/main.ec6e061b.js",
+    "main.js": "/SportNetworkComunity/static/js/main.9658edff.js",
     "static/js/453.4b136d3e.chunk.js": "/SportNetworkComunity/static/js/453.4b136d3e.chunk.js",
     "index.html": "/SportNetworkComunity/index.html",
     "main.a5ebb963.css.map": "/SportNetworkComunity/static/css/main.a5ebb963.css.map",
-    "main.ec6e061b.js.map": "/SportNetworkComunity/static/js/main.ec6e061b.js.map",
+    "main.9658edff.js.map": "/SportNetworkComunity/static/js/main.9658edff.js.map",
     "453.4b136d3e.chunk.js.map": "/SportNetworkComunity/static/js/453.4b136d3e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5ebb963.css",
-    "static/js/main.ec6e061b.js"
+    "static/js/main.9658edff.js"
   ]
 }
